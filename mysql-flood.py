@@ -26,7 +26,7 @@ def main():
     help="max connections to attempt",
     type=int,
     # default max_connections is 151 and mysqld allows that + 1
-    default=153
+    default=150
   )
   arg_parser.add_argument(
     "--user",
