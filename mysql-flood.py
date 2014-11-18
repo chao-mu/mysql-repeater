@@ -8,7 +8,7 @@ import MySQLdb
 
 def main():
   arg_parser = argparse.ArgumentParser(
-    description="Open simultaneous connections to MySQL and optionally execute a payload."
+    description="Open connections to MySQL and then optionally execute a payload."
   )
 
   arg_parser.add_argument(
@@ -26,7 +26,7 @@ def main():
     help="max connections to attempt",
     type=int,
     # default max_connections is 151 and mysqld allows that + 1
-    default=150
+    default=100
   )
   arg_parser.add_argument(
     "--user",
