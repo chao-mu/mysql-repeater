@@ -22,7 +22,7 @@ sudo pip install mysql-python
 
 Usage
 ======================
-
+```
 usage: mysql-flood.py [-h] [--port PORT] [--max MAX] --user USER --password
                       PASSWORD [--payload PAYLOAD] [--database DATABASE]
                       [--skip-errors] [--connection-delay CONNECTION_DELAY]
