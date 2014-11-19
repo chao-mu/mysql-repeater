@@ -8,16 +8,10 @@ This is a super super raw hack whipped out in my free time to debug an issue, so
 Install
 ======================
 
-This script requires the mysql-python package which has a number of dependencies. On Ubuntu you can install them like so:
+This script requires MySQLdb, which is available via the mysql-python python package, installable with pip or easy_install. It has a number of dependencies and so it may be easier to install via your system's package manager (if available). Below shows it being installed on Ubuntu:
 
 ```
-$ sudo apt-get build-dep python-mysqldb
-```
-
-and then with pip (or easy_install) install the actual package.
-
-```
-sudo pip install mysql-python
+$ sudo apt-get install python-mysqldb
 ```
 
 Usage
