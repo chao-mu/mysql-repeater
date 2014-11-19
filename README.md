@@ -10,8 +10,7 @@ Install
 
 This script requires MySQLdb, which is available via the mysql-python python package, installable with pip or easy_install. It is also available on Ubuntu repositories as python-mysqldb, which installing will include the many dependencies the python package has. If you go the pip route, you will need to install certain dependencies by hand.
 
-On Ubuntu...
-
+On Ubuntu:
 ```
 sudo apt-get install python-dev libmysqlclient-dev
 sudo pip install mysql-python
